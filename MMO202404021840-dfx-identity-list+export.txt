@@ -1,0 +1,20 @@
+gitpod /workspace/my-fork-of-icp-hello-world-motoko (main) $ dfx identity list
+Creating the "default" identity.
+WARNING: The "default" identity is not stored securely. Do not use it to control a lot of cycles/ICP.
+To create a more secure identity, create and use an identity that is protected by a password using the following commands:
+    dfx identity new <my-secure-identity-name> # creates a password protected identity
+    dfx identity use <my-secure-identity-name> # uses this identity by default
+
+  - generating new key at /home/gitpod/.config/dfx/identity/default/identity.pem
+Your seed phrase: arena dial volcano limb mother window slogan sort slot obey aerobic fluid survey veteran rescue attend segment beyond print maple champion claim cloth cereal
+This can be used to reconstruct your key in case of emergency, so write it down in a safe place.
+anonymous
+default *
+Created the "default" identity.
+gitpod /workspace/my-fork-of-icp-hello-world-motoko (main) $ dfx identity export default
+-----BEGIN EC PRIVATE KEY-----
+MHQCAQEEIPzvUQ2mUkfOIynXThyFhAWHKXmMrPTZOWCRvcMezclioAcGBSuBBAAK
+oUQDQgAECIumFlSzLE/FP3w335z2ZP1MzWNtEDd1AUtp6+UpxtOZVJ9SZKutwC5A
+RX2l43x5u3nvnp3qwWs0Oln4tA0B2Q==
+-----END EC PRIVATE KEY-----
+gitpod /workspace/my-fork-of-icp-hello-world-motoko (main) $ 
